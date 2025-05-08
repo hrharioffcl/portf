@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.container-fluid-one{
+    position: relative;
+    background-image: url(images/Untitled\ design.png);
+  background-attachment: fixed;
+    z-index: 0;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+
+}
+.topbar{
+    width: 100%;
+    height: auto;
+    color: #fff!important;
+    z-index: 1;
+  align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10%;
+    display: flex;
+    top: 50%;
+    
+}
+.topbar h1{
+    font-family: "Boldonse", system-ui;
+    
+}
+.topbar p{
+    font-size: larger;
+}
+#naavbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem  4rem  1rem 4rem;
+    box-shadow: 0 0 5px 0 grey;
+    background-color: #fff;
+}
+
+  
+
+.custombutton{
+    background-color: #a36;
+    border-radius:50px;
+    padding: 10px 30px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: x-large;
+
+    
+}
+.navbar-brand{
+    font-family: "Boldonse", system-ui;
+}
+.container-about{
+    background-color:beige;
+    text-align: center;
+    color:white;
+   justify-content: center;
+    
+}
+.about{
+    position: relative;
+  background-color: beige;
+    color:black;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.all{
+text-align: left;
+
+}
+.all p{
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+
+}
+.skills{
+    text-align: center;
+   }
+ 
+/* }
+.container-skills{
+    background-color: black;
+} */
+.card img{
+width: 50px;
+}
+.project img{
+    width: 100%;
+}
+.projects{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5rem;
+
+}
+.price{
+    padding: 5px;
+   
+   
+}
+
+.contact2 img{
+    width:100% ;
+}
+hr{
+    border: none;
+    width:100;
+    height: 5px;
+    background-color: #a36;
+    border-radius: 10px;
+ 
+
+}
+.card{
+  background-color: beige!important;
+}
+.con{
+    border: 1px solid #a36;
+    width: 70%;
+    height: 50%;
+    padding: 10px 20px ;
+  gap: 5px;
+border-radius: 20px;
+margin: 4px;
+
+}
+/* 
+#bottan{
+    background-color: #a36;
+    border-radius:50px;
+    padding: 10px 30px;
+    border: none;
+
+} */
+
+.gitc{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gitc a{
+    padding: 50px;
+    font-size: x-large;
+}
+
+.footlist a{
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:800px){
+    .contact2{
+        display: none;
+    }
+    .aboutimage{
+        display: none;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
